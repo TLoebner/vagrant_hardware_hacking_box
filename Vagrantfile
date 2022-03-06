@@ -137,6 +137,5 @@ Vagrant.configure("2") do |config|
         vb.customize ["modifyvm", :id, "--usbehci", "on"]
     end
     config.vm.provision "shell", inline: $script
-    config.vm.provision "file", source: "../tools/linux_hw/", destination: "/tools/"
     config.vm.provision "shell", inline: $finalize
  end
