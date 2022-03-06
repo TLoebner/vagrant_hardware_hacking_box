@@ -13,3 +13,7 @@ The following things are necessary on your linux box:
 ## Usage
 
 If you want to have a running virtual box instance, just do an _vagrant up_ in the directory of the repository. To create a _ova_ file you can use the script _create_kali_ova.sh_.
+
+## Thanks
+
+Thanks to all the creators of the hardware and github repos I used in that box.
