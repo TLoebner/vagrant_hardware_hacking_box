@@ -126,7 +126,7 @@ FINALIZED
 
 Vagrant.configure("2") do |config|
     config.vm.box = "kalilinux/rolling"
-    config.vm.hostname = "kaliwebpentest"
+    config.vm.hostname = "kalihardwarebox"
     
     config.vm.provider :virtualbox do |vb|
         vb.memory = 8192
